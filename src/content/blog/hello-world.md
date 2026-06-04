@@ -1,17 +1,26 @@
 ---
-title: "Hello, world"
-date: 2026-06-01
-description: "The first post."
+title: "A Cemetery Talk"
+date: 2026-05-15
+description: ""
 ---
+Since childhood, I have harbored a deep fascination with wars. Even in my preschool years, I would orchestrate sprawling toy soldier battles across the entirety of my bedroom floor. I had Reich soldiers armed with Mausers teaming up with Numidians to storm a medieval castle, fighting off Romans commanded by Napoleon. As I grew older, I remained utterly mesmerized by the sheer scale and the stark contrasts of warfare. During the COVID lockdowns, I chewed through Churchill’s 2,000-page trilogy (dedicating no less than 60 hours to the endeavor), digested about a dozen similar tomes on top of that, and poured over an ungodly, long-forgotten number of other essays, historical accounts, memoirs, maps, telegrams, and archival documents. I even clocked well over 300 hours in Hearts of Iron IV—a World War II grand strategy videogame.
 
-This is a blog post. Everything above the dashes is **front-matter** — the
-title and date that show up in the list. Everything down here is just Markdown.
+Yet, the older I became, and the deeper I plunged into those tedious volumes, the more genuinely and fervently I despised the way wars were presented to us. I was left nauseated by the St. George ribbons, the Soviet flags, the so-called “great” rulers, and the monuments of soldiers flanked by tanks and planes. The very moniker for World War II in Russia—the Great Patriotic War—evoked, and continues to evoke, a profound sense of anger and pain within me. Within the name itself, we contort a horrific tragedy—arguably the worst in human history—into a vector of national pride and admiration. It distills tens of millions of deaths into just another excuse to stoke the narrative of national superiority. I was fed tales of individual feats of valor alongside decisions that resulted in a million senseless deaths within the span of ten minutes, both adorned with that same sacredness and unyielding pride in “our” might. The way Russia handles the concept of war drove, and still drives, me to the brink of revulsion. It remains the primary reason for my utter lack of national identity.
 
-To add a new post, copy this file, rename it (the filename becomes the URL),
-and change the title and date. That's the whole workflow.
+My response—as is characteristic of the adolescent mind—was to swing to the complete opposite end of the spectrum. I began to approach war exclusively through the lens of sheer tragedy and strategic blundering. I would look at the Siege of Leningrad and think that the entire high command ought to have spent the remainder of their days rotting in Siberia for their failure to evacuate the city. I found myself entirely unable to reconcile the humanity and heroism of the individual with the abject horror and criminality of the system. I couldn't, that is, until I found myself stranded amidst the cow pastures in the Belgian backwoods.
 
-> You can quote things like this.
+Lesha and I found ourselves amidst cow pastures, having trudged a kilometer from the highway where we were unceremoniously dropped by a bus that had originated in a small Belgian town—a town we ended up in entirely by accident after boarding the wrong bus or train at the border. We had come to view the trenches of the First World War and inadvertently stumbled upon a memorial, erected by the Canadian government in honor of the Canadian soldiers who fought there during WWI. And today, I crossed paths with a memorial to Canadian soldiers once again, only this time in North York, in Toronto.
 
-- Bullet lists work
-- So do [links](https://example.com)
-- And `inline code`
+The memorial is an obelisk, standing in the center of a circular lawn with a radius of some ten meters. The structure itself is roughly ten meters tall. An alley of trees guides you toward it from the very entrance of the cemetery. Off to the side, standing lower than the obelisk itself, is a flagpole bearing the Canadian flag. It only comes into view when you step out of the alley and onto the lawn. The obelisk is constructed of tightly fitted, massive rectangular stone blocks. On the very first stone, close to the ground, reads the inscription: “To the soldiers who gave their lives in the First World War, the Second World War, the Korean War, and UN missions.”
+
+Only a faint breeze can be heard. What mesmerized me back then in the Belgian countryside is exactly what mesmerizes me now. There is no triumph here. No pride. Not a single word about the nation, not a word about the army, not a word about any organization. There is nothing here about war as such. This is a monument to the people who laid down their lives for the freedom of those they will never meet, in lands where they wouldn't understand a single word. Here, there is sorrow and hope. It is a monument to the ultimate sacrifice.
+
+The Canadian flag will turn into fading rags in a few short years. The flagpole will rust in ten. The inscription will be scoured away by the wind in a couple of decades. But the monolithic obelisk will stand for thousands—through thunderstorms and sunshine, through tempests and calms. Just as in the Belgian backwoods, it is a monument to the struggle for freedom and justice. It is a monument to the fight against evil.
+
+The Allies—both Great Britain and Canada alike—committed horrific war crimes during the Second World War. Canadian battalions were one of the primary catalysts for establishing war crimes as a legal jurisdiction after the First. It is difficult to argue that Syngman Rhee was in any way sweeter or kinder than Kim Il-sung. The UN has failed time and again to prevent genocides and exterminations; it has blundered more than once. But the memorial is not about that.
+
+It is a monument to the Canadian soldiers who stormed the beaches of Normandy or hunkered down in the trenches of South Korea not for the grandeur of the Canadian nation or the Crown, but for the freedom and justice of a generation that would be born long after their passing and live in lands utterly unlike the fields of Manitoba. And I am certain that identical monuments stand in the backwoods of the Novgorod region, in the forests of eastern France, and in the fields of Poland—dedicated not to generals and victories, but to those who gave their lives for freedom in their own villages and in foreign lands. They, too, are monuments devoid of pathos and symbolism; monuments to the struggle and the casualties of that struggle. This is a struggle that we all wage, and it is a struggle that we all are worthy of. It is a fight for the dispossessed, the fallen, and the humiliated.
+
+And when you stand there, as the wind intermittently rustles the leaves, you feel that no matter how far evil has slithered across the planet, no matter how absolute it may appear, it cannot win. Because this struggle and these sacrifices—they are not merely about Canadian soldiers and these specific wars. They are about humanity. They are about every single one of us. This struggle cannot be killed. And that is why we cannot lose.
+
+![The memorial site at a cemetery in North York that inspired the writeup](/public/blog/column.jpg)
