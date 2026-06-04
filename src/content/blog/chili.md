@@ -20,16 +20,16 @@ I wandered through a snowy Montreal—I had a few hours to kill between flights.
 Below are some of the selected photographs from the adventure.
 
 
-![The reflection of the Andes in my father's stylish sunglasses.](/public/blog/chili/sunglasses_da.jpg)
+![The reflection of the Andes in my father's stylish sunglasses.](/blog/chili/sunglasses_da.jpg)
 
-![Taking a celebratory swig of whiskey at the summit to ward of altitude sickness.](/public/blog/chili/drinking_legally.jpg)
+![Taking a celebratory swig of whiskey at the summit to ward of altitude sickness.](/blog/chili/drinking_legally.jpg)
 
-![My father passed out during our first day of climbing.](/public/blog/chili/sleeping_dad.jpg)
+![My father passed out during our first day of climbing.](/blog/chili/sleeping_dad.jpg)
 
-![Panorama on the ascend.](/public/blog/chili/panorama.jpg)
+![Panorama on the ascend.](/blog/chili/panorama.jpg)
 
-![Myself on a flat section before the final summit push.](/public/blog/chili/me_aura_sunhoodie.jpg)
+![Myself on a flat section before the final summit push.](/blog/chili/me_aura_sunhoodie.jpg)
 
-![The beautiful city of Santiago.](/public/blog/chili/santiago.jpg)
+![The beautiful city of Santiago.](/blog/chili/santiago.jpg)
 
-![My father with his hiking pole amidst the Andes.](/public/blog/chili/dad_mountain.jpg)
+![My father with his hiking pole amidst the Andes.](/blog/chili/dad_mountain.jpg)

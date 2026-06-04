@@ -23,4 +23,4 @@ It is a monument to the Canadian soldiers who stormed the beaches of Normandy or
 
 And when you stand there, as the wind intermittently rustles the leaves, you feel that no matter how far evil has slithered across the planet, no matter how absolute it may appear, it cannot win. Because this struggle and these sacrifices—they are not merely about Canadian soldiers and these specific wars. They are about humanity. They are about every single one of us. This struggle cannot be killed. And that is why we cannot lose.
 
-![The memorial site at a cemetery in North York that inspired the writeup](/public/blog/column.jpg)
+![The memorial site at a cemetery in North York that inspired the writeup](/blog/column.jpg)
