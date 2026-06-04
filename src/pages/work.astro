@@ -1,0 +1,55 @@
+---
+import Base from '../layouts/Base.astro';
+
+// Each project is a card. `image` is optional — omit the line and the
+// card just shows text. Put image/gif files in public/projects/ and
+// reference them as "/projects/filename.png" (leading slash, no "public/").
+const projects = [
+  {
+    name: 'Physics-Informed DeepL for Binary Black Hole Mergers',
+    stack: 'Python · PyTorch',
+    image: '/projects/bbh.mp4',
+    href: 'https://github.com/alpha-trotsky/Gravitational-Wave-Discovery-via-Semi-Supervised-Learning',
+    blurb: 'An empirical study of whether binary-black-hole inspiral waveforms admit a Hamiltonian latent-space representation, using a physics-informed autoencoder.',
+  },
+  {
+    name: 'Physics-Informed Models of Systemic Risk: Fractional Graph PDEs for Financial Contagion',
+    stack: 'Python · Scipy, Numpy',
+    image: '/projects/fpde.mp4',
+    href: 'https://github.com/alpha-trotsky/Physics-Informed-Models-of-Systemic-Risk-Fractional-Graph-PDEs-for-Financial-Contagion',
+    blurb: 'Treating financial contagion as a physical system on a network, to find the laws that govern how risk flows through markets.',
+  },
+  {
+    name: 'Empirical Study of Numerical Solutions to the Black-Scholes-Merton PDE',
+    stack: 'Python · Scipy, Numpy',
+    image: '/projects/bsm.jpeg',
+    href: 'https://github.com/alpha-trotsky/Gravitational-Wave-Discovery-via-Semi-Supervised-Learning',
+    blurb: 'An empirical study of 4 numerical methods on the BSM PDE, focusing on compute time, accuracy, and derivative estimates.',
+  },
+];
+---
+
+<Base title="Projects — Sasha Beliaev" description="Things I've built.">
+  <h1>Personal Work and Projects</h1>
+  <p class="tagline">Things I've built and broken.</p>
+
+  {projects.map((p) => (
+    <article class="project">
+      {p.image && (
+        <div class="project-media">
+          {p.image.endsWith('.mp4') ? (
+            <video src={p.image} autoplay loop muted playsinline></video>
+          ) : (
+            <img src={p.image} alt={p.name} loading="lazy" />
+          )}
+        </div>
+      )}
+      <div class="project-body">
+        <span class="project-name">{p.name}</span>
+        {p.stack && <span class="project-stack">{p.stack}</span>}
+        <p>{p.blurb}</p>
+        {p.href && <a href={p.href}>View on GitHub →</a>}
+      </div>
+    </article>
+  ))}
+</Base>

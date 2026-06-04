@@ -1,0 +1,156 @@
+/* ------------------------------------------------------------------
+   Design tokens. Change these to re-skin the whole site at once.
+------------------------------------------------------------------ */
+:root {
+  --ink: #1a1815;          /* main text */
+  --ink-soft: #6b6760;     /* secondary text, dates */
+  --paper: #faf8f4;        /* background */
+  --accent: #8a5a2b;       /* links / highlights */
+  --rule: #e4ded3;         /* hairline borders */
+  --maxw: 42rem;           /* reading column width */
+
+  --serif: "Spectral", Georgia, "Times New Roman", serif;
+  --sans: "IBM Plex Sans", -apple-system, system-ui, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #ece7df;
+    --ink-soft: #9a948a;
+    --paper: #16140f;
+    --accent: #d9a566;
+    --rule: #2c2820;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Base
+------------------------------------------------------------------ */
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.125rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 5rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  transition: border-color 0.15s ease;
+}
+a:hover { border-bottom-color: var(--accent); }
+
+h1, h2, h3 { line-height: 1.25; font-weight: 600; }
+h1 { font-size: 2.4rem; margin: 0 0 0.25rem; letter-spacing: -0.01em; }
+h2 { font-size: 1.5rem; margin: 2.5rem 0 0.75rem; }
+
+p { margin: 0 0 1.1rem; }
+
+/* ------------------------------------------------------------------
+   Header / nav
+------------------------------------------------------------------ */
+.site-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+.site-head .name {
+  font-weight: 600;
+  font-size: 1.15rem;
+  border: none;
+  color: var(--ink);
+}
+.site-nav { display: flex; gap: 1.25rem; font-family: var(--sans); font-size: 0.95rem; }
+.site-nav a { color: var(--ink-soft); border: none; }
+.site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--accent); }
+
+/* ------------------------------------------------------------------
+   Home
+------------------------------------------------------------------ */
+.tagline { color: var(--ink-soft); font-style: italic; margin-bottom: 2rem; }
+.socials { font-family: var(--sans); font-size: 0.95rem; margin-top: 2rem; display: flex; gap: 1.25rem; }
+
+/* ------------------------------------------------------------------
+   Blog list
+------------------------------------------------------------------ */
+.post-list { list-style: none; padding: 0; margin: 2rem 0 0; }
+.post-list li { margin-bottom: 1.6rem; }
+.post-list a { border: none; color: var(--ink); font-size: 1.25rem; }
+.post-list a:hover { color: var(--accent); }
+.post-list .meta { display: block; font-family: var(--sans); font-size: 0.82rem; color: var(--ink-soft); letter-spacing: 0.02em; }
+
+/* ------------------------------------------------------------------
+   Single post
+------------------------------------------------------------------ */
+.post-meta { font-family: var(--sans); font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 2.5rem; }
+article img { max-width: 100%; height: auto; border-radius: 2px; }
+article blockquote {
+  margin: 1.5rem 0; padding-left: 1.25rem;
+  border-left: 2px solid var(--rule); color: var(--ink-soft); font-style: italic;
+}
+article pre { background: color-mix(in srgb, var(--ink) 5%, var(--paper)); padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.9rem; }
+
+/* ------------------------------------------------------------------
+   Projects
+------------------------------------------------------------------ */
+.project {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  padding: 1.75rem 0;
+  border-top: 1px solid var(--rule);
+}
+.project-media { flex: 0 0 240px; }
+.project-media img,
+.project-media video {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+.project-body { flex: 1; }
+.project-name {
+  font-weight: 600;
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+.project-stack {
+  display: block;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  letter-spacing: 0.03em;
+  margin-bottom: 0.5rem;
+}
+.project-body p { margin: 0 0 0.6rem; }
+.project-body a { font-family: var(--sans); font-size: 0.9rem; }
+
+@media (max-width: 34rem) {
+  .project { flex-direction: column; gap: 0.9rem; }
+  .project-media { flex-basis: auto; max-width: 280px; }
+}
+/* ------------------------------------------------------------------
+   Footer
+------------------------------------------------------------------ */
+.site-foot { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); font-family: var(--sans); font-size: 0.85rem; color: var(--ink-soft); }
+
+.tagline { margin-bottom: 0.75rem; }
+.contact { margin: 0.2rem 0; font-family: var(--sans); font-size: 0.95rem; }

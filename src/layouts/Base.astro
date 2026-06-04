@@ -1,0 +1,61 @@
+---
+// Everything between these --- fences is the "frontmatter": code that runs
+// at build time (never shipped to the browser). Props come in here.
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = 'Personal website' } = Astro.props;
+
+const nav = [
+  { href: '/', label: 'Home' },
+  { href: '/work', label: 'Work' },
+  { href: '/blog', label: 'Writings' },
+  
+];
+// Normalise the current path so "/blog/some-post" still highlights "Blog".
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="site-head">
+        <a class="name" href="/">Sasha Beliaev</a>
+        <nav class="site-nav">
+          {nav.map((item) => (
+            <a
+              href={item.href}
+              aria-current={path === item.href.replace(/\/$/, '') ? 'page' : undefined}
+            >
+              {item.label}
+            </a>
+          ))}
+        </nav>
+      </header>
+
+      <main>
+        <slot />
+      </main>
+
+      <footer class="site-foot">
+        © {new Date().getFullYear()} Sasha Beliaev
+      </footer>
+    </div>
+  </body>
+</html>
