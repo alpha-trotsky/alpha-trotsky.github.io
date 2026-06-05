@@ -1,5 +1,5 @@
 ---
-title: "Unfinished Notes from my Adventures in Chili"
+title: "Unfinished Notes from Chili"
 date: 2025-12-30
 description: ""
 ---

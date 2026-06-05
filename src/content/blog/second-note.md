@@ -8,7 +8,7 @@ I rarely hear anything positive about Toronto's urbanism, and even less so about
 
 ![A personal favourite photograph of questionable Torontonian modernist architecture.](/blog/banger_shot.jpg)
 
-But to truly appreciate this city from an architectural standpoint, one must leave downtown and head just a little north north. Nestled between three ravines sits a cluster of small neighborhoods built at the end of the 19th century. Encircled by the Don Valley, the Rosedale Ravine, and Yellow Creek, this pocket of the city was immediately staked out by the most affluent Torontonians. A secluded enclave, shrouded by forests and submerged in greenery, sitting a mere 15-minute walk from the intersection of the two main subway lines. Here, the British—and later, Canadian—aristocracy built their manors. And it is here that genuinely fascinating Torontonian architecture awakens.
+But to truly appreciate this city from an architectural standpoint, one must leave downtown and head just a little north. Nestled between three ravines sits a cluster of small neighborhoods built at the end of the 19th and begging of the 20th centuries. Encircled by the Don Valley, the Rosedale Ravine, and Yellow Creek, this pocket of the city was immediately staked out by the most affluent Torontonians. A secluded enclave, shrouded by forests and submerged in greenery, sitting a mere 15-minute walk from the intersection of the two main subway lines. Here, the British—and later, Canadian—aristocracy built their manors. And it is here that genuinely fascinating Torontonian architecture awakens.
  
 ![A football field found amidst the buildings I talk of.](/blog/rosedale_football_field.jpg)
 
