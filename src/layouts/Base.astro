@@ -12,10 +12,10 @@ const { title, description = 'Personal website' } = Astro.props;
 const nav = [
   { href: '/', label: 'Home' },
   { href: '/work', label: 'Work' },
-  { href: '/blog', label: 'Writing' },
+  { href: '/writing', label: 'Writing' },
   
 ];
-// Normalise the current path so "/blog/some-post" still highlights "Blog".
+// Normalise the current path so "/writing/some-post" still highlights "Writing".
 const path = Astro.url.pathname.replace(/\/$/, '') || '/';
 ---
 
