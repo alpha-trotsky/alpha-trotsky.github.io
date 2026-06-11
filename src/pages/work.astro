@@ -6,24 +6,33 @@ import Base from '../layouts/Base.astro';
 // reference them as "/projects/filename.png" (leading slash, no "public/").
 const projects = [
   {
+    name: 'Does Gradient Descend Have Better Ball Knowledge than Me?',
+    stack: 'Python · Scipy, Numpy',
+    image: '/projects/france_spain_poisson.png',
+    href: 'https://github.com/alpha-trotsky/Human-vs-Gradient-Descent-for-WC-Predictions',
+    pdf: '/projects/gradient.pdf',
+    blurb: 'Comparison of parameter estimation via linear regression and neural networks for football match result predictions. Achivied within-noise RSP of 0.175 (close to prediction markets) and showed thar a linear model is more interpretable and robust compared to an MLP.',
+    
+  },
+  {
     name: 'Physics-Informed DeepL for Binary Black Hole Mergers',
     stack: 'Python · PyTorch',
     image: '/projects/inspiral.mp4',
     href: 'https://github.com/alpha-trotsky/Gravitational-Wave-Discovery-via-Semi-Supervised-Learning',
     blurb: 'An empirical study of whether binary-black-hole inspiral waveforms admit a Hamiltonian latent-space representation, using a physics-informed autoencoder.',
   },
-  {
+  /*{
     name: 'Physics-Informed Models of Systemic Risk: Fractional Graph PDEs for Financial Contagion',
     stack: 'Python · Scipy, Numpy',
     image: '/projects/fpde.mp4',
     href: 'https://github.com/alpha-trotsky/Physics-Informed-Models-of-Systemic-Risk-Fractional-Graph-PDEs-for-Financial-Contagion',
     blurb: 'Treating financial contagion as a physical system on a network, to find the laws that govern how risk flows through markets.',
-  },
+  },*/
   {
     name: 'Empirical Study of Numerical Solutions to the Black-Scholes-Merton PDE',
     stack: 'Python · Scipy, Numpy',
     image: '/projects/bsm.jpeg',
-    href: 'https://github.com/alpha-trotsky/Gravitational-Wave-Discovery-via-Semi-Supervised-Learning',
+    href: 'https://github.com/alpha-trotsky/BSM-PDE-Solvers',
     blurb: 'An empirical study of 4 numerical methods on the BSM PDE, focusing on compute time, accuracy, and derivative estimates.',
   },
 ];
@@ -49,6 +58,7 @@ const projects = [
         {p.stack && <span class="project-stack">{p.stack}</span>}
         <p>{p.blurb}</p>
         {p.href && <a href={p.href}>View on GitHub →</a>}
+        {p.pdf && <a href={p.pdf} target="_blank" rel="noopener" style="margin-left:0.75rem">Read here →</a>}
       </div>
     </article>
   ))}
